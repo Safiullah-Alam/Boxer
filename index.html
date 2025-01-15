@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOXER Project</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css">
+</head>
+
+<body>
+
+  <section class="home" id="home">
+    <div class="main w-100 h-100">
+      <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+          <div class="container-fluid px-0">
+            <a class="navbar-brand w-25 text-end" href="#">
+              <img src="/assets/img/header-logo.png" class="img-fluid logo" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex flex-column w-50">
+              <div class="top-navbar d-xl-block d-none bg-dark">
+                <ul class="d-flex mb-0">
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-white d-flex align-items-center">
+                      <i class="fa-solid fa-phone-volume"></i>
+                      <span class="text-nowrap"> +01 1234567890</span>
+                    </a>
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-white d-flex align-items-center">
+                      <i class="fa-solid fa-envelope"></i>
+                      <span class="text-nowrap"> mail@domain.com</span>
+                    </a>
+                  </li>
+                  <li class="list-unstyled">
+                    <a href="#" class="text-decoration-none text-white d-flex align-items-center">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span class="text-nowrap">Den mark Loram ipusum</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="collapse navbar-collapse mx-auto py-2 px-3" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 nav-ul">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#class">CLASSES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog">BLOG</a>
+                  </li>
+                </ul>
+                <a href="#" class="search-btn btn ms-lg-5 ms-3 p-0 d-flex justify-content-start align-items-center">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+              </div>
+            </form>
+          </div>
+        </nav>
+      </div>
+      <div class="home-content h-100">
+        <div class="container-fluid h-100">
+          <div class="row h-100">
+            <div class="col-md-4 align-items-center d-flex">
+              <div class="heading">
+                <h2 class="text-white fw-bold d-flex"><span class="bo d-inline-block">BO</span><span
+                    class="xer d-inline-block">XER</span></h2>
+              </div>
+            </div>
+            <div class="col-md-8 align-items-center d-flex">
+              <div id="carouselExampleIndicators" class="carousel slide position-relative w-100"
+                data-bs-ride="carousel">
+                <ol class="carousel-indicators custom-indicators d-flex justify-content-start" id="custom-indicators">
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">1</li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">2</li>
+                  <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">3</li>
+                </ol>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-flex flex-column info-box w-25">
+                      <h1 class="text-white text-center">
+                        BOXING<br>CENTER
+                      </h1>
+                      <hr class="bg-white mx-auto">
+                      <a href="#" class="text-white rounded-pill text-decoration-none d-inline-block mx-auto">Contact
+                        Us</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-flex flex-column info-box w-25">
+                      <h1 class="text-white text-center">
+                        BOXING<br>CENTER
+                      </h1>
+                      <hr class="bg-white mx-auto">
+                      <a href="#" class="text-white rounded-pill text-decoration-none d-inline-block mx-auto">Contact
+                        Us</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="d-flex flex-column info-box w-25">
+                      <h1 class="text-white text-center fw-bold">
+                        BOXING<br>CENTER
+                      </h1>
+                      <hr class="bg-white mx-auto">
+                      <a href="#" class="text-white rounded-pill text-decoration-none d-inline-block mx-auto">Contact
+                        Us</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev custom-control" type="button"
+                  data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next custom-control" type="button" id="activateSlideButton"
+                  data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 ms-auto pe-0">
+          <div class="about-content">
+            <div class="row">
+              <div class="col-lg-3 col-md-5">
+                <div class="d-flex flex-column">
+                  <h2 class="text-white">ABOUT CLASS</h2>
+                  <p class="text-white">iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris iusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipnisi ut
+                    aliquipiusmod tempor incididunt ut labore et</p>
+                  <hr class="mx-auto bg-white">
+                  <a href="#" class="d-inline-block text-white mx-auto text-decoration-none rounded-pill">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="class" id="class">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="row">
+            <div class="col-lg-9 col-md-10">
+              <div class="section-title">
+                <h2 class="fw-bold">OUR CLASSES VIDEOS</h2>
+                <p class="text-white">iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis n ostrud exercitation ullamco laboris iusmod tempor incididunt ut labore et dolore</p>
+              </div>
+            </div>
+          </div>
+          <div class="class-carousel slick-carousel">
+            <div class="class-item">
+              <div class="img-box position-relative">
+                <img src="/assets/img/c1.jpg" class="img-fluid" alt="">
+                <div class="img-info d-flex align-items-end position-absolute top-0 right-0 w-100 h-100">
+                  <button class="text-white border-0 rounded-circle"><i class="fa-solid fa-play"></i></button>
+                  <h2 class="fw-bold text-white mb-0">BOXING</h2>
+                </div>
+              </div>
+              <div class="see-btn">
+                <a href="#" class="text-white text-decoration-none d-inline-block rounded-pill">See More</a>
+              </div>
+            </div>
+            <div class="class-item">
+              <div class="img-box position-relative">
+                <img src="/assets/img/c2.jpg" class="img-fluid" alt="">
+                <div class="img-info d-flex align-items-end position-absolute top-0 right-0 w-100 h-100">
+                  <button class="text-white border-0 rounded-circle"><i class="fa-solid fa-play"></i></button>
+                  <h2 class="fw-bold text-white mb-0">BOXING</h2>
+                </div>
+              </div>
+              <div class="see-btn">
+                <a href="#" class="text-white text-decoration-none d-inline-block rounded-pill">See More</a>
+              </div>
+            </div>
+            <div class="class-item">
+              <div class="img-box position-relative">
+                <img src="/assets/img/c1.jpg" class="img-fluid" alt="">
+                <div class="img-info d-flex align-items-end position-absolute top-0 right-0 w-100 h-100">
+                  <button class="text-white border-0 rounded-circle"><i class="fa-solid fa-play"></i></button>
+                  <h2 class="fw-bold text-white mb-0">BOXING</h2>
+                </div>
+              </div>
+              <div class="see-btn">
+                <a href="#" class="text-white text-decoration-none d-inline-block rounded-pill">See More</a>
+              </div>
+            </div>
+            <div class="class-item">
+              <div class="img-box position-relative">
+                <img src="/assets/img/c2.jpg" class="img-fluid" alt="">
+                <div class="img-info d-flex align-items-end position-absolute top-0 right-0 w-100 h-100">
+                  <button class="text-white border-0 rounded-circle"><i class="fa-solid fa-play"></i></button>
+                  <h2 class="fw-bold text-white mb-0">BOXING</h2>
+                </div>
+              </div>
+              <div class="see-btn">
+                <a href="#" class="text-white text-decoration-none d-inline-block rounded-pill">See More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog" id="blog">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 ms-auto">
+          <div class="section-title">
+            <h2 class="fw-bold">LATEST BLOG</h2>
+            <p class="text-white">iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis n</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 ps-0">
+          <div class="card blog-card border-0">
+            <img src="/assets/img/b1.jpg" class="img-fluid" alt="...">
+            <div class="card-body p-0 border-0">
+              <div class="row">
+                <div class="col-lg-8 col-md-10 ms-auto">
+                  <div class="blog-info position-relative">
+                    <div
+                      class="date-box position-absolute start-0 rounded-circle text-white d-flex align-items-center justify-content-center">
+                      <h6 class="mb-0 text-center">
+                        17
+                        <br>
+                        Feb
+                      </h6>
+                    </div>
+                    <h3 class="text-white fw-bold">Boxer Joniya Daro</h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea</p>
+                    <a href="#" class="text-decoration-none rounded-pill text-white d-inline-block">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pe-0">
+          <div class="card blog-card border-0">
+            <img src="/assets/img/b2.jpg" class="img-fluid" alt="...">
+            <div class="card-body p-0 border-0">
+              <div class="row">
+                <div class="col-lg-8 col-md-10 ms-auto">
+                  <div class="blog-info position-relative">
+                    <div
+                      class="date-box position-absolute start-0 rounded-circle text-white d-flex align-items-center justify-content-center">
+                      <h6 class="mb-0 text-center">
+                        17
+                        <br>
+                        Feb
+                      </h6>
+                    </div>
+                    <h3 class="text-white fw-bold">Boxer Joniya Daro</h3>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea</p>
+                    <a href="#" class="text-decoration-none rounded-pill text-white d-inline-block">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="client">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="client-content">
+            <div class="section-title text-center">
+              <h2 class="fw-bold">WHAT SAYS OUR STUDENTS</h2>
+              <p class="text-white">iusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis n</p>
+            </div>
+            <div class="slick-carousel client-carousel">
+              <div class="client-item position-relative">
+                <div class="img-box rounded-circle mx-auto">
+                  <img src="/assets/img/client1.png" class="img-fluid" alt="">
+                </div>
+                <div class="detail-box">
+                  <h4 class="text-white text-center">John Moe</h4>
+                  <p class="text-white mt-4">It is a long established fact that a reader will be distracted by the
+                    readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a
+                    reader will be distracted by the readable content of a page when looking at its layout. The point of
+                    using Lorem Ipsum</p>
+                  <img src="/assets/img/quote.png" class="img-fluid mt-4 mx-auto" alt="">
+                </div>
+              </div>
+              <div class="client-item position-relative">
+                <div class="img-box rounded-circle mx-auto">
+                  <img src="/assets/img/client2.png" class="img-fluid" alt="">
+                </div>
+                <div class="detail-box">
+                  <h4 class="text-white text-center">Lio Uji</h4>
+                  <p class="text-white mt-4">It is a long established fact that a reader will be distracted by the
+                    readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a
+                    reader will be distracted by the readable content of a page when looking at its layout. The point of
+                    using Lorem Ipsum</p>
+                  <img src="/assets/img/quote.png" class="img-fluid mt-4 mx-auto" alt="">
+                </div>
+              </div>
+              <div class="client-item position-relative">
+                <div class="img-box rounded-circle mx-auto">
+                  <img src="/assets/img/client1.png" class="img-fluid" alt="">
+                </div>
+                <div class="detail-box">
+                  <h4 class="text-white text-center">John Moe</h4>
+                  <p class="text-white mt-4">It is a long established fact that a reader will be distracted by the
+                    readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a
+                    reader will be distracted by the readable content of a page when looking at its layout. The point of
+                    using Lorem Ipsum</p>
+                  <img src="/assets/img/quote.png" class="img-fluid mt-4 mx-auto" alt="">
+                </div>
+              </div>
+              <div class="client-item position-relative">
+                <div class="img-box rounded-circle mx-auto">
+                  <img src="/assets/img/client2.png" class="img-fluid" alt="">
+                </div>
+                <div class="detail-box">
+                  <h4 class="text-white text-center">Lio Uji</h4>
+                  <p class="text-white mt-4">It is a long established fact that a reader will be distracted by the
+                    readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a
+                    reader will be distracted by the readable content of a page when looking at its layout. The point of
+                    using Lorem Ipsum</p>
+                  <img src="/assets/img/quote.png" class="img-fluid mt-4 mx-auto" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 ms-auto">
+          <div class="row align-items-end">
+            <div class="col-md-6 pe-0">
+              <div class="contact-form">
+                <h2 class="fw-bold">Request A Call Back</h2>
+                <div class="form">
+                  <input type="text" class="form-control" placeholder="Name">
+                  <input type="number" class="form-control" placeholder="Phone Number">
+                  <input type="email" class="form-control" placeholder="Email">
+                  <textarea class="form-control" placeholder="Message"></textarea>
+                  <button class="d-inline-block bg-white rounded-pill">SEND</button>
+                </div>
+              </div>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d756.0594883450088!2d-74.00575122032265!3d40.71277792929709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258fda88cefb3%3A0x7f1e88758d210007!2sNew%20York%20City%20Hall!5e0!3m2!1sen!2s!4v1705379164508!5m2!1sen!2s"
+                  width="100%" height="325" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="footer my-4">
+                <div class="social-links">
+                  <ul class="ps-0 mb-0 d-flex">
+                    <li class="list-unstyled">
+                      <a href="#" class="text-decoration-none text-dark fw-bold me-3 d-inline-block">
+                        <i class="fa-brands fa-facebook-f fs-4"></i>
+                      </a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="#" class="text-decoration-none text-dark fw-bold me-3 d-inline-block">
+                        <i class="fa-brands fa-twitter fs-4"></i>
+                      </a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="#" class="text-decoration-none text-dark fw-bold me-3 d-inline-block">
+                        <i class="fa-brands fa-linkedin-in fs-4"></i>
+                      </a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="#" class="text-decoration-none text-dark fw-bold me-3 d-inline-block">
+                        <i class="fa-brands fa-instagram fs-4"></i>
+                      </a>
+                    </li>
+                    <li class="list-unstyled">
+                      <a href="#" class="text-decoration-none text-dark fw-bold me-3 d-inline-block">
+                        <i class="fa-brands fa-youtube fs-4"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <p class="mb-0 mt-4">
+                  © 2045 All Rights Reserved. By
+                  <a href="#" class="text-decoration-none text-dark">HTML Design</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 px-0">
+              <div class="img">
+                <img src="/assets/img/footer-img.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5"></div>
+
+
+  <!-- Client Carousel -->
+  <script>
+    $(document).ready(function () {
+      $('.slick-carousel').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        dots: false,
+
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 5000,
+              dots: false
+            }
+          },
+        ]
+      });
+
+      // var saf = $("#custom-indicators li.active").attr('data-bs-slide-to');
+      // if(saf == 0){
+      //     console.log(saf = 1)
+      //   }
+      // $("#activateSlideButton").click(function(){
+      //   // Remove "active" class from all indicators
+      //   var saf = $("#custom-indicators li.active").attr('data-bs-slide-to');
+      //   // console.log(saf)
+      //   if(saf == 0){
+      //     console.log(saf = 1)
+
+      //   }else if(saf == 1){
+      //     console.log(saf = 2)
+      //   }else if(saf == 2){
+      //     console.log(saf = 3)
+      //   }
+      // });
+    });
+  </script>
+
+  <!-- Bootstrap JS File -->
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <!-- jQuery CDN -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <!-- slick Carousel CDN -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+</body>
+
+</html>

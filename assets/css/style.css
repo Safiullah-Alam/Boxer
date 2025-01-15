@@ -1,0 +1,431 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #63f74f;
+}
+
+.home{
+    background: url(/assets/img/hero-bg.jpg) no-repeat center;
+    height: 100vh;
+}
+
+.home .header{
+    clip-path: polygon(50% 0%,100% 0,100% 100%,28.5% 100%,26.5% 86%,0 84%,0 0);
+}
+
+.home .header .logo{
+    width: 125px !important;
+    margin-right: 5px;
+}
+
+.home .header .top-navbar{
+    clip-path: polygon(50% 0%,100% 0,100% 100%,8% 100%,0 0);
+}
+
+.home .header .top-navbar ul li a{
+    margin: 10px 0 10px 35px;
+    font-family: sans-serif;
+}
+
+.home .header .top-navbar ul li a i{
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.home .header .top-navbar ul li a span{
+    letter-spacing: 1px;
+}
+
+.home .header .nav-ul li a{
+    padding: 10px 20px;
+    color: #212121;
+}
+
+.home .header .search-btn{
+    width: 35px;
+    height: 35px;
+}
+
+.home .header .search-btn i{
+    font-size: 22px;
+}
+
+.home .header .search-btn:focus{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.home .main{
+    background: linear-gradient(to bottom,transparent,transparent,#63f74f);
+}
+
+@media screen and (max-width:992px){
+    .home .home-content{
+        padding: 45px 0;
+    }
+}
+
+.home .home-content h2{
+    font-size: 160px;
+    transform: rotate(90deg);
+}
+
+.home .home-content h2 span.bo{
+    transform: rotate(0deg);
+}
+
+.home .home-content h2 span.xer{
+    color: #63f74f !important;
+    transform: rotate(0deg);
+}
+
+.home .home-content .info-box h1{
+    font-weight: 900;
+}
+
+.home .home-content .info-box hr{
+    opacity: 1;
+    width: 1.5px;
+    height: 65px;
+}
+
+@media screen and (max-width:786px) {
+    .home .home-content .info-box hr{
+        opacity: 0.4 !important;
+    }
+}
+
+.home .home-content .info-box a{
+    background-color: #000;
+    border: 1px solid transparent;
+    padding: 10px 35px;
+    margin-top: 35px;
+}
+
+.home .home-content .custom-indicators{
+    position: unset;
+    margin: 0 70px 45px 70px;
+}
+
+.home .home-content .custom-indicators li{
+    border: none !important;
+}
+
+.home .home-content .custom-control{
+    width: 55px;
+    height: 55px;
+    background-color: #63f74f;
+    color: #fff;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.home .home-content .custom-control:hover , .home .home-content .custom-control:hover span{
+    background-color: #fff;
+    color: #63f74f !important;
+}
+
+.home .home-content .custom-control span{
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+    font-weight: 900;
+}
+
+.home .home-content .carousel-control-prev{
+    position: absolute;
+    top: 50%;
+    left: 92%;
+}
+
+.home .home-content .carousel-control-next{
+    position: absolute;
+    top: 30%;
+    right: 25px;
+}
+
+/* About Section */
+
+.about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.about .about-content{
+    background: url(/assets/img/about-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 45px;
+}
+
+.about .about-content a{
+    box-shadow: 0 0 35px 0 rgba(99,247,79,.7);
+    padding: 8px 35px;
+    margin-top: 35px;
+    background-color: #000;
+    border: 1px solid transparent;
+}
+
+.about .about-content a:hover{
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.about .about-content hr{
+    width: 1.5px;
+    height: 125px;
+    opacity: 1;
+}
+
+/* Class Section */
+
+.class .class-carousel{
+    margin-top: 45px;
+}
+
+.class .class-carousel .slick-next{
+    top: 30%;
+    right: -25%;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.class .class-carousel .slick-next:hover{
+    background-color: #fff;
+}
+
+.class .class-carousel .slick-prev{
+    top: 40%;
+    left: 119%;
+    width: 75px;
+    height: 75px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.class .class-carousel .slick-prev:hover{
+    background-color: #fff;
+}
+
+.class .class-carousel .slick-prev::before{
+    content: "\f053"; /* Unicode character for the chevron-right icon in Font Awesome 6 */
+    font-family: 'Font Awesome 6 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900; /* Specify the font weight (900 for solid style) */
+}
+
+.class .class-carousel .slick-prev .slick-prev::before{
+    color: #000 !important;
+}
+
+.class .class-carousel .slick-next::before{
+    content: "\f054"; /* Unicode character for the chevron-right icon in Font Awesome 6 */
+    font-family: 'Font Awesome 6 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900; /* Specify the font weight (900 for solid style) */
+}
+
+.class .class-carousel .slick-next .slick-next::before{
+    color: #000 !important;
+}
+
+.class .class-carousel .slick-dots{
+    display: none !important;
+}
+
+.class .class-carousel .class-item{
+    margin-right: 10px;
+}
+
+.class .class-carousel .class-item .see-btn a{
+    padding: 10px 45px;
+    background-color: #000;
+    border: 1px solid transparent;
+    margin-top: 30px;
+}
+
+.class .class-carousel .class-item .see-btn a:hover{
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.class .class-carousel .class-item .img-box{
+    background-color: #000; 
+    padding-left: 75px;
+}
+
+.class .class-carousel .class-item .img-box .img-info{
+    margin-left: -75px;
+    padding: 55px 0;
+}
+
+.class .class-carousel .class-item .img-box .img-info button{
+    background-color: #292929;
+    width: 55px;
+    height: 55px;
+    margin: 0 10px;
+}
+
+.class .class-carousel .class-item .img-box .img-info h2{
+    line-height: 55px;
+    margin-left: 15px;
+}
+
+/* Blog Section */
+
+.blog{
+    padding: 120px 0 120px;
+}
+
+.blog .blog-card{
+    background-color: #252525;
+    margin: 45px 0;
+    overflow-x: hidden;
+}
+
+.blog .blog-card .blog-info{
+    padding: 75px 35px 35px 0;
+}
+
+.blog .blog-card .blog-info .date-box{
+    width: 75px;
+    height: 75px;
+    background-color: #63f74f;
+    top: -37.5px;
+}
+
+.blog .blog-card .blog-info a{
+    border: 1px solid transparent;
+    background-color: #000;
+    padding: 8px 25px;
+    margin-top: 35px;
+}
+
+.blog .blog-card .blog-info a:hover{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+/* Client section */
+
+.client{
+    padding-bottom: 120px;
+}
+
+.client .client-content .section-title{
+    margin-bottom: 45px;
+}
+
+.client .client-content .client-carousel .slick-dots{
+    display: none !important;
+}
+
+.client .client-content .client-carousel .slick-next{
+    width: 55px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    top: 110%;
+    right: 470px;
+}
+
+.client .client-content .client-carousel .slick-next::before{
+    content: "\f061"; /* Unicode character for the arrow-right icon in Font Awesome 6 */
+    font-family: 'Font Awesome 6 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900; /* Specify the font weight (900 for solid style) */
+    color: #000;
+}
+
+.client .client-content .client-carousel .slick-prev{
+    width: 55px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #000;
+    top: 110%;
+    left: 465px;
+}
+
+.client .client-content .client-carousel .slick-prev::before{
+    content: "\f060"; /* Unicode character for the arrow-right icon in Font Awesome 6 */
+    font-family: 'Font Awesome 6 Free'; /* Specify the Font Awesome font family */
+    font-weight: 900; /* Specify the font weight (900 for solid style) */
+    color: #fff;
+    margin-right: 5px;
+}
+
+.client .client-content .client-carousel .client-item{
+    margin-right: 10px;
+}
+
+.client .client-content .client-carousel .img-box{
+    width: 125px;
+    height: 125px;
+    margin-bottom: -62px;
+} 
+
+.client .client-content .client-carousel .detail-box{
+    background-color: #050304;
+    padding: 95px 25px 45px 25px;
+}
+
+.client .client-content .client-carousel .detail-box p{
+    font-size: 17px;
+}
+
+.client .client-content .client-carousel .detail-box img{
+    width: 35px;
+}
+
+/* Contact section */
+
+.contact .map{
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.contact .contact-form .form{
+    margin: 45px 0;
+    padding-right: 35px;
+}
+
+.contact .contact-form .form input{
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: #000;
+    outline: 0;
+    color: #fff;
+    border-radius: 45px;
+}
+
+.contact .contact-form .form textarea{
+    margin-bottom: 25px;
+    padding-left: 25px;
+    background-color: #000;
+    outline: 0;
+    color: #fff;
+    border-radius: 25px;
+    height: 135px;
+}
+
+.contact .contact-form .form textarea::placeholder{
+    display: flex;
+    align-items: center;
+}
+
+.contact .contact-form .form button{
+    padding: 12px 55px;
+    margin-top: 35px;
+    border: 1px solid transparent;
+}
+
+.contact .contact-form .form button:hover{
+    color: #fff;
+    background: #000 !important;
+}
